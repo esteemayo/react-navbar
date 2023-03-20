@@ -20,9 +20,9 @@ const NavBar = () => {
 
   return (
     <nav>
-      <div className="nav-center">
-        <div className="nav-header">
-          <img src={logo} alt="logo" />
+      <div className='nav-center'>
+        <div className='nav-header'>
+          <img src={logo} alt='logo' />
           <button
             onClick={() => setShowLinks(!showLinks)}
             className="nav-toggle"
