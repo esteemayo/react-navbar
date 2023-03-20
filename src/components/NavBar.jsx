@@ -44,7 +44,7 @@ const NavBar = () => {
           </ul>
         </div>
 
-        <ul className="social-icons">
+        <ul className='social-icons'>
           {social.map((socialIcon) => {
             const { id, url, icon } = socialIcon;
             return (
