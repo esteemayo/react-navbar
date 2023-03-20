@@ -1,6 +1,5 @@
 import { FaBars } from 'react-icons/fa';
 import { useState, useRef, useEffect } from 'react';
-import { FaBars } from 'react-icons/fa';
 
 import logo from '../logo.svg';
 import { links, social } from 'services/dataService';
