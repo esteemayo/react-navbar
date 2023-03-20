@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from 'react';
 import logo from '../logo.svg';
 import { links, social } from 'services/dataService';
 
-const NavBar = () => {
+const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
   const linkContainerRef = useRef(null);
   const linkRef = useRef(null);
@@ -59,4 +59,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;
