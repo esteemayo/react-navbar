@@ -25,7 +25,7 @@ const NavBar = () => {
           <img src={logo} alt='logo' />
           <button
             onClick={() => setShowLinks(!showLinks)}
-            className="nav-toggle"
+            className='nav-toggle'
           >
             <FaBars />
           </button>
