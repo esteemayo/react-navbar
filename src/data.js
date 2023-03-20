@@ -37,7 +37,7 @@ export const social = [
   },
   {
     id: 2,
-    url: "https://www.facebook.com",
+    url: 'https://www.facebook.com',
     icon: <FaTwitter />,
   },
   {
