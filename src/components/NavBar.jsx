@@ -2,7 +2,7 @@ import { FaBars } from 'react-icons/fa';
 import { useState, useRef, useEffect } from 'react';
 
 import logo from '../logo.svg';
-import { links, social } from 'services/dataService';
+import { links, social } from '../data';
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
